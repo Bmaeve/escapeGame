@@ -1,0 +1,71 @@
+#contener2 {
+  min-height: 90vh;                  
+  display: grid;                      
+  grid-template-columns: 15% 40% 30% 15%;  
+  grid-template-rows:  5% 35% 30% 10% 10%;  
+  background-image : url("../images/fond/fond3.png");
+  background-size: cover;
+}
+
+#phraseFin{
+  grid-row: 1;
+  padding: 0.5%;
+}
+
+input{
+  padding: 0.2%;
+  margin: 0.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  text-align: center;
+
+  grid-row: 1;
+}
+
+#classementPersonnel{
+  grid-row: 2;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 5%;
+  padding: 1.7%;
+}
+
+#retourPP{
+  grid-row: 3;
+  text-align: center;
+}
+
+
+#deplacementBus{
+  grid-column: 1 / span3 ;                     
+  grid-row: 4;
+}
+
+#coin{
+  position: relative;
+}
+
+#block {
+  /* border-radius: 5%; */
+  /* background-color: rgb(127, 167, 185, 0.4); */
+  grid-column: 3;                     
+  grid-row: 2 ;
+
+  grid-template-rows: 30% 30% 40%;
+
+  /* overflow: auto;
+  scrollbar-width: thin;
+  height: 20vh;
+  overflow-y: scroll; */
+  /* scrollbar-color: rgb(247, 226, 196, 0.50) rgba(97, 86, 72, 0.50); */
+
+  /* position: absolute; */
+  /* width: 40%; */
+  text-align: center;
+  /* margin-top: 2%; */
+  /* margin-left: -45%; */
+  background-color: #fbfafb;
+  opacity: 0.65;
+  padding: 3%;
+}
